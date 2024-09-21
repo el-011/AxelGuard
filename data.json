@@ -1,0 +1,133 @@
+{
+    "products": [
+      {
+        "product_code": "AXG01",
+        "product_name": "4ch 1080p SD Card MDVR (MR9504EC)",
+        "images": [
+          "assets/img/AXG01/Basic Sd card MDVR.png",
+          "assets/img/AXG01/Basic Sd card MDVR1.png",
+          "assets/img/AXG01/Basic SD card MDVR2.png",
+          "assets/img/AXG01/Basic SD card MDVR3.png",
+          "assets/img/AXG01/Basic SD card MDVR4.jpg"
+        ],
+        "features": [
+            "Built-in high performance SigmaStar Image chipsets", 
+            "H.265/H.264 standard, high compression rate and image quality",
+            "4 CH 1080P live preview and storage",
+            "Support UPS power input",
+            "Unique GPS drift suppression algorithm"
+          ],
+          "technical_features": [
+            "Professional vehicle power supply 9-36V DC wide voltage, special file management system to encrypt and protect the data",
+            "Built-in super capacitor, avoid data loss and SD card damage caused by sudden outage",
+            "Support GPS/BD optional, high sensitivity, fast positioning",
+            "Operating system Embedded Linux OS"
+        ],
+        "pdf_manual": "assets/img/AXG01/Basic, 4CH SD 1080P Mobile DVR MR9504EC.pdf"
+      },
+
+      {
+        "product_code": "AXG02",
+        "product_name": "4ch 1080p HDD MDVR (MR9704C)",
+        "images": [
+          "assets/img/AXG02/Basic HDD.png",
+          "assets/img/AXG02/Basic HDD1.png"
+        ],
+        "features": [
+            "Built-in high-performance chipsets, coded with H.265 standard.",
+            "Supports AHD, TVI, CVI, IPC, and Analog formats.",
+            "4+1 channels for live preview and storage.",
+            "1CH synchronized AV output, 1CH VGA output.",
+            "Built-in G-sensor for monitoring driving habits.",
+            "Allows for horizontal and vertical camera image adjustment for reverse assistance."
+          ],
+          "technical_features": [
+            "Operating system Embedded Linux OS",
+            "GUI interface, supports mouse and remote control",
+            "Two-layer password protection (Admin/User)",
+            "Video compression H.265",
+            "Image resolution 1080P/720P/960H/D1/CIF",
+            "Recording modes Manual and Alarm",
+            "AV input 4CH 4-pin aviation + 1CH 6-pin aviation for IPC",
+            "AV output 1CH VGA, 1CH aviation AV output",
+            "USB 1 USB 2.0 (supports U disk/mouse)",
+            "Ethernet 1 x 6-pin aviation to RJ45 (10M/100M)",
+            "Additional ports UART, ignition input, disaster recovery, debug port",
+            "Dimensions 162mm x 153mm x 52mm"
+          ],
+        "pdf_manual": "assets/img/AXG02/4g, 4CH 1080P H265 HDD Mobile DVR (MR9704E) (1).pdf"
+      },
+
+      {
+        "product_code": "AXG03",
+        "product_name": "4ch 1080p SD, 4G, GPS MDVR (MR9504E)",
+        "images": [
+          "assets/img/AXG03/Basic Sd card MDVR.png",
+          "assets/img/AXG03/Basic Sd card MDVR1.png",
+          "assets/img/AXG03/Basic SD card MDVR2.png",
+          "assets/img/AXG03/Basic SD card MDVR3.png",
+          "assets/img/AXG03/Basic SD card MDVR4.jpg"
+        ],
+        "features": [
+            "Built-in high-performance chipsets",
+            "Supports AHD TVI CVI IPC ANALOG",
+            "1CH AV output 1CH VGA output",
+            "Operates on 8-36V DC with multiple protection circuits",
+            "Monitors driving habits with built-in G-Sensor",
+            "Supports SD cards up to 512GB with built-in super capacitor to prevent data loss",
+            "Optional GPS BD GLONASS WiFi and 3G/4G transmission",
+            "Embedded Linux with GUI interface",
+            "Supports 1080P 720P 960H D1 CIF resolution",
+            "Recording modes Automatic or Alarm with 4CH local playback",
+            "4 AV inputs 1 USB 2.0 1 SDXC slot and more"
+          ],
+          "technical_features": [
+            "Operating system Embedded Linux OS",
+            "Supports PAL NTSC video standards",
+            "Compression formats H.264 H264+ H265 H265+",
+            "Playback quality 1080P 720P 960H D1 CIF",
+            "Audio compression G711A G711 G726 MG726 ADPCM IMA",
+            "Decoding ability 4CH 1080P",
+            "Ethernet 1 x 6-pin aviation to RJ45 10M/100M",
+            "Storage size 1080P 1G per hour per channel 720P 0.5G per hour per channel 960H 0.38G per hour per channel"
+          ],
+        "pdf_manual": "assets/img/AXG03/4g, 1080 SD, GPS Mobile DVR (MR9504E).pdf"
+      },
+
+      {
+        "product_code": "AXG04",
+        "product_name": "4ch 1080p HDD, 4G, GPS MDVR (MR9704E)",
+        "images": [
+          "assets/img/AXG04/HDD MDVR 4G.jpg",
+          "assets/img/AXG04/HDD MDVR 4G1.jpg",
+          "assets/img/AXG04/HDD MDVR 4G2.jpg",
+          "assets/img/AXG04/HDD MDVR 4G3.jpg",
+          "assets/img/AXG04/HDD MDVR 4G4.jpg"
+        ],
+        "features": [
+            "Built-in high-performance chipsets coded with H.265 standard",
+            "Supports AHD TVI CVI IPC and Analog formats",
+            "4+1 channels for live preview and storage",
+            "1CH synchronized AV output 1CH VGA output",
+            "Built-in G-sensor for monitoring driving habits",
+            "Allows for horizontal and vertical camera image adjustment for reverse assistance"
+          ],
+          "technical_features": [
+            "Operating system Embedded Linux OS",
+            "GUI interface supports mouse and remote control",
+            "Two-layer password protection Admin/User",
+            "Video compression H.265",
+            "Image resolution 1080P/720P/960H/D1/CIF",
+            "Recording modes Manual and Alarm",
+            "AV input 4CH 4-pin aviation + 1CH 6-pin aviation for IPC",
+            "AV output 1CH VGA 1CH aviation AV output",
+            "USB 1 USB 2.0 supports U disk/mouse",
+            "Ethernet 1 x 6-pin aviation to RJ45 10M/100M",
+            "Additional ports UART ignition input disaster recovery debug port",
+            "Dimensions 162mm x 153mm x 52mm"
+          ],
+        "pdf_manual": "assets/img/AXG04/4g, 4CH 1080P H265 HDD Mobile DVR (MR9704E) (1).pdf"
+      }
+    ]
+  }
+  
