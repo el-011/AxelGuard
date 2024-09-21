@@ -1,79 +1,37 @@
-// Product card creation function (modified)
-function createProductCard(product) {
-    const card = document.createElement('div');
-    card.className = 'product-card';
-
-    const carousel = document.createElement('div');
-    carousel.className = 'carousel';
-
-    product.images.forEach((src, index) => {
-        const img = document.createElement('img');
-        img.src = src;
-        img.alt = `${product.product_name} - Image ${index + 1}`;
-        img.className = index === 0 ? 'active' : '';
-        carousel.appendChild(img);
-    });
-
-    const productInfo = document.createElement('div');
-    productInfo.className = 'product-info';
-
-    const productName = document.createElement('h2');
-    productName.className = 'product-name';
-    productName.textContent = product.product_name;
-
-    const readMore = document.createElement('a');
-    readMore.href = `product-details.html?code=${product.product_code}`;
-    readMore.className = 'read-more';
-    readMore.textContent = 'Read More';
-
-    productInfo.appendChild(productName);
-    productInfo.appendChild(readMore);
-
-    card.appendChild(carousel);
-    card.appendChild(productInfo);
-
-    return card;
-}
-
-// Function to setup carousel functionality with auto-rotation
-function setupCarousel(card) {
-    const images = card.querySelectorAll('.carousel img');
-    let currentIndex = 0;
-
-    function showImage(index) {
-        images[currentIndex].classList.remove('active');
-        currentIndex = (index + images.length) % images.length;
-        images[currentIndex].classList.add('active');
-    }
-
-    // Auto-rotate images every 2 seconds
-    setInterval(() => showImage(currentIndex + 1), 5000);
-}
-
-// Function to create all product cards
-function createProductCards(products) {
-    const container = document.getElementById('product-container');
-    products.forEach(product => {
-        const card = createProductCard(product);
-        setupCarousel(card);
-        container.appendChild(card);
-    });
-}
-
-// Fetch JSON data and create product cards
-document.addEventListener('DOMContentLoaded', () => {
+// Fetch data from data.json and initialize the product list
+function initProductList() {
     fetch('data.json')
         .then(response => response.json())
         .then(data => {
-            createProductCards(data.products);
+            const productListEl = document.getElementById('product-list');
+            if (productListEl) {
+                productListEl.className = 'product-grid';
+                data.products.forEach(product => {
+                    productListEl.appendChild(createProductCard(product));
+                });
+            }
         })
         .catch(error => {
-            console.error('Error loading the product data:', error);
+            console.error('Error loading product data:', error);
         });
-});
+}
 
-// Product details page functionality
-function loadProductDetails() {
+// Create product card
+function createProductCard(product) {
+    const card = document.createElement('div');
+    card.className = 'product-card';
+    card.innerHTML = `
+        <img src="${product.images[0]}" alt="${product.product_name}" class="product-image">
+        <div class="product-info">
+            <h3 class="product-name">${product.product_name}</h3>
+            <a href="product-detail.html?code=${product.product_code}" class="read-more-btn">Read More</a>
+        </div>
+    `;
+    return card;
+}
+
+// Function to show product details in product-detail.html
+function showProductDetail() {
     const urlParams = new URLSearchParams(window.location.search);
     const productCode = urlParams.get('code');
 
@@ -81,56 +39,48 @@ function loadProductDetails() {
         .then(response => response.json())
         .then(data => {
             const product = data.products.find(p => p.product_code === productCode);
-            if (product) {
-                displayProductDetails(product);
-            } else {
-                console.error('Product not found');
+            const detailEl = document.getElementById('product-detail');
+            if (detailEl) {
+                detailEl.innerHTML = `
+                <div class="unique-product-detail-container">
+                        <div class="unique-image-gallery">
+                            <img src="${product.images[0]}" alt="${product.product_name}" class="unique-detail-image">
+                            <div class="unique-thumbnail-images">
+                                ${product.images.map(img => `<img src="${img}" alt="${product.product_name}" class="unique-thumbnail">`).join('')}
+                            </div>
+                        </div>
+                        <div class="unique-product-info">
+                            <h2 class="unique-product-name">${product.product_name}</h2>
+                            <div class="unique-features">
+                                <h3>Features</h3>
+                                <ul>
+                                    ${product.features.map(feature => `<li>${feature}</li>`).join('')}
+                                </ul>
+                            </div>
+                            <div class="unique-technical-features">
+                                <h3>Technical Features</h3>
+                                <ul>
+                                    ${product.technical_features.map(feature => `<li>${feature}</li>`).join('')}
+                                </ul>
+                            </div>
+                            <div class="unique-actions">
+                                <a href="${product.pdf_manual}" target="_blank" class="unique-download-btn">Download PDF Manual</a>
+                            </div>
+                        </div>
+                    </div>
+                `;
             }
         })
         .catch(error => {
-            console.error('Error loading the product data:', error);
+            console.error('Error loading product details:', error);
         });
 }
 
-function displayProductDetails(product) {
-    document.getElementById('product-name').textContent = product.product_name;
-    document.getElementById('product-price').textContent = `$${product.price.toFixed(2)}`;
-    document.getElementById('product-description').textContent = product.description;
-
-    const colorSelector = document.getElementById('color-selector');
-    product.colors.forEach(color => {
-        const option = document.createElement('option');
-        option.value = color;
-        option.textContent = color;
-        colorSelector.appendChild(option);
-    });
-
-    const sizeSelector = document.getElementById('size-selector');
-    product.sizes.forEach(size => {
-        const option = document.createElement('option');
-        option.value = size;
-        option.textContent = size;
-        sizeSelector.appendChild(option);
-    });
-
-    const carousel = document.getElementById('product-carousel');
-    product.images.forEach((src, index) => {
-        const img = document.createElement('img');
-        img.src = src;
-        img.alt = `${product.product_name} - Image ${index + 1}`;
-        img.className = index === 0 ? 'active' : '';
-        carousel.appendChild(img);
-    });
-
-    setupCarousel(document.querySelector('.product-details'));
-}
-
-// Check if we're on the product details page
-if (document.querySelector('.product-details')) {
-    loadProductDetails();
-}
-
-
-
-//product detail page 
-
+// Initialize the correct function based on the page
+document.addEventListener('DOMContentLoaded', () => {
+    if (document.getElementById('product-list')) {
+        initProductList(); // Called on product.html
+    } else if (document.getElementById('product-detail')) {
+        showProductDetail(); // Called on product-detail.html
+    }
+});

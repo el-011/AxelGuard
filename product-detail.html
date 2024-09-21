@@ -4,12 +4,11 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Contact - Moderna Bootstrap Template</title>
+  <title>AxelGuard</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
@@ -36,7 +35,7 @@
   ======================================================== -->
 </head>
 
-<body class="contact-page">
+<body class="portfolio-details-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
@@ -99,129 +98,77 @@
     <!-- Page Title -->
     <div class="page-title dark-background">
       <div class="container position-relative">
-        <h1>Contact</h1>
-        <p>Get in touch with us today to explore how we can help you achieve your goals.</p>
+        <h1>Product Detail</h1>
+        <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.</p>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Contact</li>
+            <li class="current">Product Detail</li>
           </ol>
         </nav>
       </div>
     </div><!-- End Page Title -->
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
+    <!-- Portfolio Details Section -->
+    <div id="product-detail" class="product-detail"></div><!-- /Portfolio Details Section -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <section id="clients" class="clients section">
 
-        <div class="row gy-4">
-          <div class="col-lg-6 ">
-            <div class="row gy-4">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Related Products</h2>
+      </div><!-- End Section Title -->
 
-              <div class="col-lg-12">
-                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
-                  <i class="bi bi-geo-alt"></i>
-                  <h3>Address</h3>
-                  <p>Office No 210 Second Floor PC Chamber Sector 66, Noida Uttar Pradesh - 201301</p>
-                </div>
-              </div><!-- End Info Item -->
+      <div class="container">
 
-              <div class="col-md-6">
-                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
-                  <i class="bi bi-telephone"></i>
-                  <h3>Call Us</h3>
-                  <p>+91 87553 11835</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="col-md-6">
-                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
-                  <i class="bi bi-envelope"></i>
-                  <h3>Email Us</h3>
-                  <p>info@axel-guard.com</p>
-                </div>
-              </div><!-- End Info Item -->
-
-            </div>
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt=""></div>
           </div>
-
-          <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="500">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="contact" placeholder="Contact" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="4" placeholder="Message" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
-
         </div>
 
       </div>
 
-      <div> 
-        <div class="container">  
-          <div class="row gy-4 align-items-center features-item">
-            <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
-              <div class="container2">
-                <ul class="cards">
-                  <li>
-                    <img src="https://w7.pngwing.com/pngs/150/512/png-transparent-tech-support-team-illustration.png" alt="Profile Picture">
-                    <div class="details">
-                      <h3>Service & IT Assistance</h3>
-                      <span class="title"> <i class="bi bi-calendar-event-fill"></i> &nbsp; &nbsp; Monday - Saturday</span>
-                      <span class="title"> <i class="bi bi-alarm-fill"></i> &nbsp; &nbsp; 10:00 AM - 7:00 PM</span>
-                      <span class="title"><i class="bi bi-telephone-fill"></i> &nbsp; &nbsp; +91 73035 98592 </a></span>
-                      <span class="title"><i class="bi bi-envelope-fill"></i> &nbsp; &nbsp; it.realtrack@gmail.com </a></span>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
-              <div class="container2">
-                <ul class="cards">
-                  <li>
-                    <img src="https://w7.pngwing.com/pngs/4/758/png-transparent-computer-icons-social-media-facebook-technical-support-blue-team-logo.png" alt="Profile Picture">
-                    <div class="details">
-                      <h3>Sales & Support Team</h3>
-                      <span class="title"> <i class="bi bi-calendar-event-fill"></i> &nbsp; &nbsp; Monday - Saturday</span>
-                      <span class="title"> <i class="bi bi-alarm-fill"></i> &nbsp; &nbsp; 10:00 AM - 7:00 PM</span>
-                      <span class="title"><i class="bi bi-telephone-fill"></i> &nbsp; &nbsp; +91 96506 44714 </a></span>
-                      <span class="title"><i class="bi bi-envelope-fill"></i> &nbsp; &nbsp; sales.realtrack@gmail.com </a></span>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div><!-- Features Item -->
-        </div>
-      </div> 
-
-    </section><!-- /Contact Section -->
+    </section><!-- /Clients Section -->
 
   </main>
 
@@ -321,6 +268,7 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/product.js"></script>
 
   <script src="./assets/js/WhatsappChatBox.min.js"></script>
 	<script>
