@@ -125,8 +125,9 @@
               </div>
               <div class="details">
                 <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis.</p>
-                <a href="https://drive.google.com/uc?export=download&id=176NWsWFZEa96alzEiiA6JsGHHCARxabF" download class="download-btn">
-                  <h3>Download </h3></a>
+                <a href="#" id="downloadBtn" class="download-btn">
+                  <h3>Download</h3>
+                </a>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -165,6 +166,23 @@
     </section><!-- /Services Section -->
 
   </main>
+
+
+  <div id="mobileVerificationModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Mobile Verification</h2>
+        <div id="phoneInputSection">
+            <input type="tel" id="phoneNumber" placeholder="Enter your mobile number">
+            <button onclick="sendOTP()">Send OTP</button>
+        </div>
+        <div id="otpInputSection" style="display:none;">
+            <input type="text" id="otpInput" placeholder="Enter OTP">
+            <button onclick="verifyOTP()">Verify OTP</button>
+        </div>
+    </div>
+  </div>
+
 
   <footer id="footer" class="footer dark-background">
 
@@ -265,6 +283,7 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/otp.js"></script>
 
   <script src="./assets/js/WhatsappChatBox.min.js"></script>
 	<script>

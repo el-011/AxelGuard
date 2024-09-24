@@ -2886,7 +2886,6 @@ section,
   display: flex;
   gap: 10px;
   margin-bottom: 20px;
-  flex-wrap: wrap;
 }
 .detail-image {
   width: 100px;
@@ -2897,210 +2896,173 @@ section,
 .feature-list, .tech-feature-list {
   padding-left: 20px;
 }
-#product-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.product-card {
-  flex: 1 1 calc(25% - 20px); /* Each card takes 25% of the row minus some margin */
-  box-sizing: border-box;
-  margin: 10px;
-  border: 1px solid #ddd;
-  padding: 10px;
-  text-align: center;
-}
-
-.product-card img {
-  width: 100%; /* Ensure images fit within the card */
-  height: auto;
-}
-.product-card {
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  overflow: hidden;
-  transition: transform 0.3s ease;
-}
-.product-card:hover {
-  transform: translateY(-5px);
-}
-.product-image {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-}
-.product-info {
-  padding: 15px;
-}
-.product-name {
-  margin: 0 0 10px;
-  font-size: 18px;
-}
-.read-more-btn {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  background-color: #4CAF50;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-.product-detail {
-  background-color: white;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-.detail-images {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
-}
-.detail-image {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  border-radius: 4px;
-}
-.feature-list, .tech-feature-list {
-  padding-left: 20px;
-}
-
-
-
-/* Layout container */
 .unique-product-detail-container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
 }
-
-/* Image gallery */
 .unique-image-gallery {
-  flex: 1 1 45%;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+  flex: 1;
+  margin-right: 40px;
 }
-
 .unique-detail-image {
   width: 100%;
   height: auto;
-  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 20px;
 }
-
 .unique-thumbnail-images {
   display: flex;
   gap: 10px;
 }
-
 .unique-thumbnail {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   object-fit: cover;
-  border: 1px solid #ddd;
+  border-radius: 4px;
   cursor: pointer;
+  transition: opacity 0.3s;
 }
-
 .unique-thumbnail:hover {
-  border: 2px solid #4CAF50;
+  opacity: 0.7;
 }
-
-/* Product information */
 .unique-product-info {
-  flex: 1 1 45%;
-  background-color: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex: 1;
 }
-
 .unique-product-name {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.unique-pricing {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  margin-bottom: 15px;
-}
-
-.unique-current-price {
-  font-size: 22px;
-  color: #e60000;
-  font-weight: bold;
-}
-
-.unique-old-price {
-  text-decoration: line-through;
-  color: #888;
-}
-
-.unique-discount {
-  background-color: #ffcccc;
-  color: #e60000;
-  padding: 5px;
-  border-radius: 4px;
-}
-
-.unique-product-options select, .unique-quantity input {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  margin-bottom: 15px;
-  border-radius: 4px;
-  border: 1px solid #ddd;
-}
-
-.unique-actions {
-  display: flex;
-  gap: 10px;
+  font-size: 30px;
   margin-bottom: 20px;
 }
-
-.unique-add-to-cart, .unique-favorite {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+.unique-features, .unique-technical-features {
+  margin-bottom: 20px;
 }
-
-.unique-add-to-cart {
-  background-color: #4CAF50;
-  color: white;
-}
-
-.unique-favorite {
-  background-color: #ffcccc;
-  color: #e60000;
-}
-
-/* Delivery and Return Info */
-.unique-delivery-info, .unique-return-info {
-  margin-top: 20px;
-  padding: 15px;
-  background-color: #f1f1f1;
-  border-radius: 4px;
-}
-
-.unique-delivery-info h4, .unique-return-info h4 {
+.unique-features h4, .unique-technical-features h4 {
+  font-size: 18px;
   margin-bottom: 10px;
 }
-
-.unique-delivery-info ul, .unique-return-info ul {
-  list-style-type: none;
-  padding: 0;
+.unique-features ul, .unique-technical-features ul {
+  padding-left: 20px;
+}
+.unique-download-btn {
+  display: inline-block;
+  background-color: #68a4c4;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.unique-product-info .unique-features ul i,
+.unique-product-info .unique-technical-features ul i{
+  font-size: 20px;
+  padding-right: 4px;
+  color: var(--accent-color);
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 300px;
+  text-align: center;
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+input, button {
+  margin: 10px 0;
+  padding: 5px;
+  width: 90%;
 }
 
-.unique-delivery-info li, .unique-return-info li {
-  padding: 5px 0;
-  border-bottom: 1px solid #ddd;
+
+
+
+
+
+
+
+
+
+
+
+
+.service-item2 {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.service-item2 .img {
+  width: 100%;
+  padding-top: 75%; /* This gives a 4:3 aspect ratio to the image container */
+  position: relative;
+  overflow: hidden;
+}
+
+.service-item2 .img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image maintains its aspect ratio and covers the container */
+  border-radius: 8px;
+}
+
+.service-item2 .details {
+  margin-top: 15px;
+}
+
+.service-item2 .product-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.read-more-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #68a4c4;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+
+/* Grid container adjustments */
+.col-lg-4 {
+  display: flex;
+  justify-content: center;
+  align-items: stretch; /* Ensures all cards have equal height */
+}
+
+.service-item2 {
+  flex: 1; /* Makes each service item fill the available space evenly */
 }
