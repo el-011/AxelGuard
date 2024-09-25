@@ -23,7 +23,7 @@
           "Support GPS/BD optional, high sensitivity, fast positioning",
           "Operating system Embedded Linux OS"
       ],
-      "pdf_manual": "assets/img/AXG01/Basic, 4CH SD 1080P Mobile DVR MR9504EC.pdf"
+      "pdf_manual": "/assets/img/AXG01/Basic, 4CH SD 1080P Mobile DVR MR9504EC.pdf"
     },
 
     {
@@ -55,7 +55,7 @@
           "Additional ports UART, ignition input, disaster recovery, debug port",
           "Dimensions 162mm x 153mm x 52mm"
         ],
-      "pdf_manual": "assets/img/AXG02/4g, 4CH 1080P H265 HDD Mobile DVR (MR9704E) (1).pdf"
+      "pdf_manual": "/assets/img/AXG02/4g, 4CH 1080P H265 HDD Mobile DVR (MR9704E) (1).pdf"
     },
 
     {
@@ -91,7 +91,7 @@
           "Ethernet 1 x 6-pin aviation to RJ45 10M/100M",
           "Storage size 1080P 1G per hour per channel 720P 0.5G per hour per channel 960H 0.38G per hour per channel"
         ],
-      "pdf_manual": "assets/img/AXG03/4g, 1080 SD, GPS Mobile DVR (MR9504E).pdf"
+      "pdf_manual": "/assets/img/AXG03/4g, 1080 SD, GPS Mobile DVR (MR9504E).pdf"
     },
 
     {
@@ -126,7 +126,7 @@
           "Additional ports UART ignition input disaster recovery debug port",
           "Dimensions 162mm x 153mm x 52mm"
         ],
-      "pdf_manual": "assets/img/AXG04/4g, 4CH 1080P H265 HDD Mobile DVR (MR9704E) (1).pdf"
+      "pdf_manual": "/assets/img/AXG04/4g, 4CH 1080P H265 HDD Mobile DVR (MR9704E) (1).pdf"
     },
     {
       "product_code" : "AXG05",
@@ -242,7 +242,7 @@
         "Memory Card: Supports TF cards with a maximum capacity of 32GB" ,
         "Power Interface: Operates on 5V 1A power, with a built-in battery for backup" 
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG17/4Inch 3Channel Touch Screen Dash Cam.pdf"
+      "pdf_manual" : "/assets/img/AXG17/4Inch 3Channel Touch Screen Dash Cam.pdf"
     } ,
     {
       "product_code" : "AXG18" ,
@@ -295,7 +295,7 @@
         "Rear Camera: FHD rear camera with a 6-meter cable for parking assistance" ,
         "Video Format: Supports TS/MP4 video recording formats"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG19/10inch Android Dash cam.pdf"
+      "pdf_manual" : "/assets/img/AXG19/10inch Android Dash cam.pdf"
     } ,
     {
       "product_code" : "AXG20" ,
@@ -320,7 +320,7 @@
         "Supports micro SD/micro SDHC cards with up to 128GB capacity" ,
         "Operates reliably between -20℃ and 70℃"
       ],
-      "pdf_manual" : "AxelGuard/assets/img/AXG20/12inch 4k Dash Cam.pdf"
+      "pdf_manual" : "/assets/img/AXG20/12inch 4k Dash Cam.pdf"
     } ,
     {
       "product_code" : "AXG21" ,
@@ -347,7 +347,7 @@
         "Supports micro SD/micro SDHC cards up to 128GB capacity" ,
         "Functions in temperatures from -20°C to 70°C"
       ] , 
-      "pdf_manual" : "AxelGuard/assets/img/AXG21/12inch 4k Dash Cam.pdf"
+      "pdf_manual" : "/assets/img/AXG21/12inch 4k Dash Cam.pdf"
     },
     {
       "product_code" : "AXG26",
@@ -373,7 +373,7 @@
         "Delivers data at 1Mbit/s" ,
         " Lasts up to 3 years"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG26/UHF RFID Animal Ear Tracking Tag (MR3876A).pdf"
+      "pdf_manual" : "/assets/img/AXG26/UHF RFID Animal Ear Tracking Tag (MR3876A).pdf"
     } ,
     {
       "product_code" : "AXG27" ,
@@ -395,7 +395,7 @@
         "Operates at 2440MHz with GPRS support on GSM and other bands" ,
         "Functions in extreme temperatures from -40°C to 80°C"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG27/2.4G Ultra-long Range Integrated Reader MR7901P.pdf"
+      "pdf_manual" : "/assets/img/AXG27/2.4G Ultra-long Range Integrated Reader MR7901P.pdf"
     } ,
     {
       "product_code" : "AXG30" ,
@@ -421,7 +421,7 @@
         " Tracks vehicle status with GPS drift suppression algorithm" ,
         "Advanced vehicle power system with multi-protection circuits and smart management"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG30/AHD CAR-HAILING DVR (Dual TF card).pdf"
+      "pdf_manual" : "/assets/img/AXG30/AHD CAR-HAILING DVR (Dual TF card).pdf"
     } ,
     {
       "product_code" : "AXG31" ,
@@ -447,7 +447,7 @@
         " Tracks vehicle status with GPS drift suppression algorithm" ,
         "Advanced vehicle power system with multi-protection circuits and smart management"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG31/AHD CAR-HAILING DVR (Dual TF card).pdf"
+      "pdf_manual" : "/assets/img/AXG31/AHD CAR-HAILING DVR (Dual TF card).pdf"
     } ,
     {
       "product_code" : "AXG38" ,
@@ -472,7 +472,7 @@
         "Includes GPS/BD/GLONASS, 4G, and optional WiFi" ,
         "Operates on 8-36V DC with intelligent power management"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG38/4CH SD  AI MDVR (MR9504ED).pdf"
+      "pdf_manual" : "/assets/img/AXG38/4CH SD  AI MDVR (MR9504ED).pdf"
     } ,
     {
       "product_code" : "AXG39" ,
@@ -498,7 +498,7 @@
         "Operates on 5V 1A power with a built-in backup battery" ,
         "USB port for data transfer, PC camera function, and charging from multiple sources"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG39/4Inch 3Channel Touch Screen Dash Cam.pdf"
+      "pdf_manual" : "/assets/img/AXG39/4Inch 3Channel Touch Screen Dash Cam.pdf"
     } , 
     {
       "product_code" : "AXG40" , 
@@ -524,7 +524,7 @@
         "Functions effectively in temperatures from -20°C to 75°C" ,
         "Compatible with 2GB to 128GB memory cards, requiring Class 10 or higher for optimal performance"
       ],
-      "pdf_manual" : "AxelGuard/assets/img/AXG40/Hidden wifi Dash Cam.pdf"
+      "pdf_manual" : "/assets/img/AXG40/Hidden wifi Dash Cam.pdf"
     } ,
     {
      "product_code" : "AXG42" ,
@@ -566,7 +566,7 @@
         "Operates at 2440MHz with GPRS support on multiple bands" ,
         "Functions effectively in a wide range from -40°C to 80°C"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG45/2.4G Directional Reader ( indor use) MR7902.pdf"
+      "pdf_manual" : "/assets/img/AXG45/2.4G Directional Reader ( indor use) MR7902.pdf"
     } ,
     {
      "product_code" : "AXG46" ,
@@ -591,7 +591,7 @@
       "Capable of playback at 1080P, 720P, 960H, D1, and CIF resolutions" ,
       "Consumes approximately 1G/h/channel for 1080P, 0.5G/h/channel for 720P, and 0.38G/h/channel for 960H"
      ] ,
-     "pdf_manual" : "AxelGuard/assets/img/AXG46/4g, 1080 SD, GPS Mobile DVR (MR9504E).pdf"
+     "pdf_manual" : "/assets/img/AXG46/4g, 1080 SD, GPS Mobile DVR (MR9504E).pdf"
     } ,
     {
       "product_code" : "AXG47" ,
@@ -617,7 +617,7 @@
         " Supports manual and alarm recording modes for flexibility" ,
         "Includes 4CH AV input, 1CH VGA output, USB 2.0, and Ethernet RJ45 for versatile connectivity"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG47/Five in One 4CH 1080P MR9704E.pdf"
+      "pdf_manual" : "/assets/img/AXG47/Five in One 4CH 1080P MR9704E.pdf"
     } ,
     {
       "product_code" : "AXG48" ,
@@ -644,7 +644,7 @@
         "Utilizes H.265 compression for efficient storage and high quality" ,
         "Supports multiple resolutions: 1080P, 720P, 960H, D1, and CIF"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG48/4g, 4CH 1080P H265 HDD Mobile DVR (MR9704E) (1).pdf"
+      "pdf_manual" : "/assets/img/AXG48/4g, 4CH 1080P H265 HDD Mobile DVR (MR9704E) (1).pdf"
     } ,
     {
       "product_code" : "AXG49" ,
@@ -701,7 +701,7 @@
         "PAL standard for video output compatibility" ,
         "Ranges from -25℃ to 75℃ for reliable performance in various conditions"
       ], 
-      "pdf_manual" : "AxelGuard/assets/img/AXG52/ADAS Camera AXG-ADAS-S2 SPEC.pdf.pdf"
+      "pdf_manual" : "/assets/img/AXG52/ADAS Camera AXG-ADAS-S2 SPEC.pdf.pdf"
     } ,
     {
       "product_code" : "AXG53" ,
@@ -723,7 +723,7 @@
         " Delivers clear and sharp video output at a resolution of 1280x720 pixels" ,
         "Supports PAL video output format at 25 frames per second for smooth video playback"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG53/DSM Camera AXG-DSM-S2.pdf"
+      "pdf_manual" : "/assets/img/AXG53/DSM Camera AXG-DSM-S2.pdf"
     } ,
     {
       "product_code" : "AXG54" ,
@@ -745,7 +745,7 @@
         "Prevents data loss and SD card damage, supporting storage capacities of up to 512G SD cards" ,
         "Provides fast positioning capabilities with detection features for antenna plug-in, unplug, and short circuit issues"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG54/BSD Camera TL-BSD-EF2 SPEC en-GB.pdf"
+      "pdf_manual" : "/assets/img/AXG54/BSD Camera TL-BSD-EF2 SPEC en-GB.pdf"
     },
     {
       "product_code" : "AXG55" ,
@@ -787,7 +787,7 @@
         "Supports CVBS and VGA video inputs for flexible connectivity",
         "Measures 185mm (L) x 135mm (W) x 60mm (T) with a sunhat, and weighs approximately 0.45 kg for compactness and portability"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG56/7inch Heavy Duty VGA Monitor .pdf"
+      "pdf_manual" : "/assets/img/AXG56/7inch Heavy Duty VGA Monitor .pdf"
     },
     {
       "product_code" : "AXG57" ,
@@ -810,7 +810,7 @@
         "Enhances image clarity in varied lighting conditions for balanced visibility" ,
         "IP66 rated for water and dust resistance with TVS3000V lightning and surge protection for durability in harsh environments"
       ] , 
-      "pdf_manual" : "AxelGuard/assets/img/AXG57/HDC C-120.pdf"
+      "pdf_manual" : "/assets/img/AXG57/HDC C-120.pdf"
     } ,
     {
       "product_code" : "AXG58" ,
@@ -835,7 +835,7 @@
         "Supports 1080P, 720P, 960H, D1, and CIF resolutions" ,
         "G711A, G711, G.726, MG.726, ADPCM, IMA for audio data handling"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG58/4g, 4CH 1080P H265 HDD Mobile DVR (MR9704E) (1).pdf" 
+      "pdf_manual" : "/assets/img/AXG58/4g, 4CH 1080P H265 HDD Mobile DVR (MR9704E) (1).pdf" 
     } ,
     {
       "product_code" : "AXG59" ,
@@ -880,7 +880,7 @@
         "Requires a blowing flow rate of 10 L/min for accurate measurements" ,
         "Weighs 250g with dimensions of 1406030mm for easy portability and installation"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG62/Alcohol_Tester_Full_Details.pdf.pdf"
+      "pdf_manual" : "/assets/img/AXG62/Alcohol_Tester_Full_Details.pdf.pdf"
     } ,
     {
       "product_code" : "AXG63" ,
@@ -1011,7 +1011,7 @@
         "Operates at 2.44GHz with 0dBm output power" ,
         "Made of ABS heat-resistant material, measuring 86x55x5.5mm"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG70/2.4G Active Tag (Card Type) HX607.pdf"
+      "pdf_manual" : "/assets/img/AXG70/2.4G Active Tag (Card Type) HX607.pdf"
     } ,
     {
       "product_code" : "AXG72" ,
@@ -1035,7 +1035,7 @@
         " 4 CH audio input and 2 CH analog output for sound management" ,
         " Uses H.264/H.265 for efficient video compression and storage"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG72/4CH HDD Commercial Vehicle AIMDVR (MA9704E).pdf"
+      "pdf_manual" : "/assets/img/AXG72/4CH HDD Commercial Vehicle AIMDVR (MA9704E).pdf"
     } ,
     {
       "product_code" : "AXG73" ,
@@ -1057,7 +1057,7 @@
         "Supports both fixed frequency and frequency-hopping spread spectrum (FHSS), software programmable" ,
         " Programmable with an average reading time per 64 bits of less than 10 milliseconds"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG73/MR 6700A UHF Passive electronic tag (1).pdf"
+      "pdf_manual" : "/assets/img/AXG73/MR 6700A UHF Passive electronic tag (1).pdf"
     } ,
     {
       "product_code" : "AXG74" ,
@@ -1082,7 +1082,7 @@
         "Measurement Resolution: 0.1 mm" ,
         "Operating Temperature Range: -30℃ to +80℃"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG74/Ultrasonic_Fuel (1).pdf"
+      "pdf_manual" : "/assets/img/AXG74/Ultrasonic_Fuel (1).pdf"
     } ,
     {
       "product_code" : "AXG75" ,
@@ -1145,7 +1145,7 @@
         "Operates on 9V DC with a working current of 350 mA" ,
         "Certified with CE and FCC for compliance and safety"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG80/2.4 G-Hz Omni-directional RFID Reader (MR3102E).pdf"
+      "pdf_manual" : "/assets/img/AXG80/2.4 G-Hz Omni-directional RFID Reader (MR3102E).pdf"
 
     }
   ]
