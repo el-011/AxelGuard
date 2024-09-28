@@ -2,6 +2,7 @@
   "products": [
     {
       "product_code": "AXG01",
+      "product_type" : "basic_mdvr" ,
       "product_name": "4ch 1080p SD Card MDVR (MR9504EC)",
       "images": [
         "assets/img/AXG01/Basic Sd card MDVR.png",
@@ -28,6 +29,7 @@
 
     {
       "product_code": "AXG02",
+      "product_type" : "basic_mdvr" ,
       "product_name": "4ch 1080p HDD MDVR (MR9704C)",
       "images": [
         "assets/img/AXG02/Basic HDD.png",
@@ -60,13 +62,14 @@
 
     {
       "product_code": "AXG03",
+      "product_type" : "basic_mdvr" ,
       "product_name": "4ch 1080p SD, 4G, GPS MDVR (MR9504E)",
       "images": [
-        "assets/img/AXG03/Basic Sd card MDVR.png",
-        "assets/img/AXG03/Basic Sd card MDVR1.png",
-        "assets/img/AXG03/Basic SD card MDVR2.png",
-        "assets/img/AXG03/Basic SD card MDVR3.png",
-        "assets/img/AXG03/Basic SD card MDVR4.jpg"
+        "assets/img/AXG03/SD Card MDVR 5ch.png" ,
+        "assets/img/AXG03/SD Card MDVR 5ch1.png" ,
+        "assets/img/AXG03/SD Card MDVR 5ch2.png" ,
+        "assets/img/AXG03/SD card MDVR 5ch3.png" ,
+        "assets/img/AXG03/sd card MDVR 5ch4.png"
       ],
       "features": [
           "Built-in high-performance chipsets",
@@ -96,6 +99,7 @@
 
     {
       "product_code": "AXG04",
+      "product_type" : "basic_mdvr" ,
       "product_name": "4ch 1080p HDD, 4G, GPS MDVR (MR9704E)",
       "images": [
         "assets/img/AXG04/HDD MDVR 4G.jpg",
@@ -130,6 +134,7 @@
     },
     {
       "product_code" : "AXG05",
+      "product_type" : "MDVR_Monitor" ,
       "product_name" : "7 inch AV Monitor",
       "images" : [
         "assets/img/AXG05/7inch AV monitor.png",
@@ -152,7 +157,8 @@
       ]
     },
     {
-      "product_code" : "AXG07" ,
+      "product_code" : "AXG07" , 
+      "product_type" : "MDVR_Monitor", 
       "product_name" : "7inch VGA Monitor" , 
       "images" : [
         "assets/img/AXG07/7inch VGA.png" ,
@@ -175,6 +181,7 @@
     } ,
     {
       "product_code" : "AXG10",
+      "product_type" : "Indoor_Dome_Camera" ,
       "product_name" : "Dome Camera" ,
       "images" : [
         "assets/img/AXG10/indoor Dome camera.png",
@@ -198,6 +205,7 @@
     } ,
     {
       "product_code" : "AXG11" ,
+      "product_type" : "Outdoor_Bullet_camera" ,
       "product_name" : "Bullet Camera" ,
       "images" : [
         "assets/img/AXG11/Outdoor Bullet camera.png" ,
@@ -221,6 +229,7 @@
     } ,
     {
       "product_code" : "AXG17" ,
+      "product_type" : "Dashcam",
       "product_name" : "4-Inch 3-Channel Touch Screen Dash Cam" ,
       "images" : [
         "assets/img/AXG17/4inch dashcam.png" ,
@@ -242,10 +251,11 @@
         "Memory Card: Supports TF cards with a maximum capacity of 32GB" ,
         "Power Interface: Operates on 5V 1A power, with a built-in battery for backup" 
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG17/4Inch 3Channel Touch Screen Dash Cam.pdf"
+      "pdf_manual" : "/assets/img/AXG17/4Inch 3Channel Touch Screen Dash Cam.pdf"
     } ,
     {
       "product_code" : "AXG18" ,
+      "product_type" : "Dashcam",
       "product_name" : "10inch Dashcam" , 
       "images" : [ 
         "assets/img/AXG18/10inch dashcam.png" ,
@@ -271,6 +281,7 @@
     } ,
     {
       "product_code" : "AXG19" ,
+      "product_type" : "Dashcam",
       "product_name" : "10inch Android DashCam" ,
       "images" : [ 
         "assets/img/AXG19/10inch dashcam.png" , 
@@ -295,10 +306,11 @@
         "Rear Camera: FHD rear camera with a 6-meter cable for parking assistance" ,
         "Video Format: Supports TS/MP4 video recording formats"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG19/10inch Android Dash cam.pdf"
+      "pdf_manual" : "/assets/img/AXG19/10inch Android Dash cam.pdf"
     } ,
     {
       "product_code" : "AXG20" ,
+      "product_type" : "Dashcam",
       "product_name" : "12-inch 4K Dashcam" ,
       "images" : [
         "assets/img/AXG20/12inch dashcam.jpg" ,
@@ -320,10 +332,11 @@
         "Supports micro SD/micro SDHC cards with up to 128GB capacity" ,
         "Operates reliably between -20℃ and 70℃"
       ],
-      "pdf_manual" : "AxelGuard/assets/img/AXG20/12inch 4k Dash Cam.pdf"
+      "pdf_manual" : "/assets/img/AXG20/12inch 4k Dash Cam.pdf"
     } ,
     {
       "product_code" : "AXG21" ,
+      "product_type" : "Dashcam",
       "product_name" : "12inch 4K Dashcam" ,
       "images" : [
         "assets/img/AXG21/12inch dashcam.jpg" ,
@@ -347,11 +360,11 @@
         "Supports micro SD/micro SDHC cards up to 128GB capacity" ,
         "Functions in temperatures from -20°C to 70°C"
       ] , 
-      "pdf_manual" : "AxelGuard/assets/img/AXG21/12inch 4k Dash Cam.pdf"
+      "pdf_manual" : "/assets/img/AXG21/12inch 4k Dash Cam.pdf"
     },
     {
       "product_code" : "AXG26",
-      "product_type" : "RFID Tags",
+      "product_type" : "rfid_tags",
       "product_name" : "Animal Tag" , 
       "images" : [
         "assets/img/AXG26/Animal_Tag.jpg" ,
@@ -373,10 +386,11 @@
         "Delivers data at 1Mbit/s" ,
         " Lasts up to 3 years"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG26/UHF RFID Animal Ear Tracking Tag (MR3876A).pdf"
+      "pdf_manual" : "/assets/img/AXG26/UHF RFID Animal Ear Tracking Tag (MR3876A).pdf"
     } ,
     {
       "product_code" : "AXG27" ,
+      "product_type" : "rfid_reader" ,
       "product_name" : "2.4G Ultra-long Range Integrated Reader MR7901P" ,
       "images" : [
         "assets/img/AXG27/RFID_reader.jpg" ,
@@ -395,36 +409,11 @@
         "Operates at 2440MHz with GPRS support on GSM and other bands" ,
         "Functions in extreme temperatures from -40°C to 80°C"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG27/2.4G Ultra-long Range Integrated Reader MR7901P.pdf"
-    } ,
-    {
-      "product_code" : "AXG30" ,
-      "product_name" : "AHD Car-Hailing DVR (Dual TF Card)" ,
-      "images" : [
-        "assets/img/AXG30/2ch AI dashcam.png" ,
-        "assets/img/AXG30/2ch AI dashcam1.png" ,
-        "assets/img/AXG30/2ch AI dashcam2.png" , 
-        "assets/img/AXG30/2ch AI dashcam3.png" ,
-        "assets/img/AXG30/2ch AI dashcam4.png"
-      ] , 
-      "features" : [
-        "AHD Car-Hailing DVR for vehicle monitoring" ,
-        "Measures 111.3 x 88.7 x 27mm" ,
-        "Supports DC 8V-36V input" ,
-        "Supports up to 2x 512GB TF cards" ,
-        " Runs on Embedded Linux OS"
-      ] ,
-      "technical_features" : [
-        "Supports H.265/H.264 for high compression efficiency" ,
-        "Built-in 1CH ADAS 1080P/720P camera and 3CH 720P AHD, with AHD/TVI/CVI/CVBS input options" ,
-        " Built-in GPS/BD/GLONASS, 4G LTE/HSPA/WCDMA, and 2.4GHz WiFi modules" ,
-        " Tracks vehicle status with GPS drift suppression algorithm" ,
-        "Advanced vehicle power system with multi-protection circuits and smart management"
-      ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG30/AHD CAR-HAILING DVR (Dual TF card).pdf"
+      "pdf_manual" : "/assets/img/AXG27/2.4G Ultra-long Range Integrated Reader MR7901P.pdf"
     } ,
     {
       "product_code" : "AXG31" ,
+      "product_type" : "Dashcam" ,
       "product_name" : "3CH AI Dashcam" , 
       "images" : [
         "assets/img/AXG31/4ch AI Dashcam.png" ,
@@ -447,10 +436,11 @@
         " Tracks vehicle status with GPS drift suppression algorithm" ,
         "Advanced vehicle power system with multi-protection circuits and smart management"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG31/AHD CAR-HAILING DVR (Dual TF card).pdf"
+      "pdf_manual" : "/assets/img/AXG31/AHD CAR-HAILING DVR (Dual TF card).pdf"
     } ,
     {
       "product_code" : "AXG38" ,
+      "product_type" : "ai_version" ,
       "product_name" : "4CH SD AI MDVR (MR9504ED)" , 
       "images" : [
         "assets/img/AXG38/AI mdvr.jpg" ,
@@ -472,10 +462,11 @@
         "Includes GPS/BD/GLONASS, 4G, and optional WiFi" ,
         "Operates on 8-36V DC with intelligent power management"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG38/4CH SD  AI MDVR (MR9504ED).pdf"
+      "pdf_manual" : "/assets/img/AXG38/4CH SD  AI MDVR (MR9504ED).pdf"
     } ,
     {
       "product_code" : "AXG39" ,
+      "product_type" : "Dashcam",
       "product_name" : "4-Inch 3-Channel Touch Screen Dashcam" ,
       "images" : [
         "assets/img/AXG39/4inch dashcam.png" ,
@@ -498,11 +489,12 @@
         "Operates on 5V 1A power with a built-in backup battery" ,
         "USB port for data transfer, PC camera function, and charging from multiple sources"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG39/4Inch 3Channel Touch Screen Dash Cam.pdf"
+      "pdf_manual" : "/assets/img/AXG39/4Inch 3Channel Touch Screen Dash Cam.pdf"
     } , 
     {
-      "product_code" : "AXG40" , 
-      "product_name" : "Hidden WiFi Dashcam" , 
+      "product_code" : "AXG40" ,
+      "product_type" : "Dashcam", 
+      "product_name" : "WiFi Dashcam" , 
       "images" : [ 
         "assets/img/AXG40/wifi dashcam.png" ,
         "assets/img/AXG40/wifi dashcam1.png" ,
@@ -524,10 +516,11 @@
         "Functions effectively in temperatures from -20°C to 75°C" ,
         "Compatible with 2GB to 128GB memory cards, requiring Class 10 or higher for optimal performance"
       ],
-      "pdf_manual" : "AxelGuard/assets/img/AXG40/Hidden wifi Dash Cam.pdf"
+      "pdf_manual" : "/assets/img/AXG40/Hidden wifi Dash Cam.pdf"
     } ,
     {
      "product_code" : "AXG42" ,
+     "product_type" : "Indoor_Dome_Camera",
      "product_name" : "2MP MDVR Audio Camera" ,
      "images" : [
       "assets/img/AXG42/Audio camera 1.png" ,
@@ -547,6 +540,7 @@
     } ,
     {
       "product_code" : "AXG45" ,
+      "product_type" : "rfid_reader",
       "product_name" : "2.4G Directional Reader MR7902" ,
       "images" : [
         "assets/img/AXG45/RFID_Active_reader.jpg" , 
@@ -566,10 +560,11 @@
         "Operates at 2440MHz with GPRS support on multiple bands" ,
         "Functions effectively in a wide range from -40°C to 80°C"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG45/2.4G Directional Reader ( indor use) MR7902.pdf"
+      "pdf_manual" : "/assets/img/AXG45/2.4G Directional Reader ( indor use) MR7902.pdf"
     } ,
     {
      "product_code" : "AXG46" ,
+     "product_type" : "enhanced_version" ,
      "product_name" : "4G, 1080 SD, GPS Mobile DVR (MR9504E)" ,
      "images" : [
       "assets/img/AXG46/SD Card MDVR 5ch.png" ,
@@ -591,10 +586,11 @@
       "Capable of playback at 1080P, 720P, 960H, D1, and CIF resolutions" ,
       "Consumes approximately 1G/h/channel for 1080P, 0.5G/h/channel for 720P, and 0.38G/h/channel for 960H"
      ] ,
-     "pdf_manual" : "AxelGuard/assets/img/AXG46/4g, 1080 SD, GPS Mobile DVR (MR9504E).pdf"
+     "pdf_manual" : "/assets/img/AXG46/4g, 1080 SD, GPS Mobile DVR (MR9504E).pdf"
     } ,
     {
       "product_code" : "AXG47" ,
+      "product_type" : "enhanced_version" ,
       "product_name" : "4CH 1080P H265 HDD Mobile DVR (MR9704E)" , 
       "images" : [
         "assets/img/AXG47/HDD MDVR 4G.jpg" ,
@@ -617,10 +613,11 @@
         " Supports manual and alarm recording modes for flexibility" ,
         "Includes 4CH AV input, 1CH VGA output, USB 2.0, and Ethernet RJ45 for versatile connectivity"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG47/Five in One 4CH 1080P MR9704E.pdf"
+      "pdf_manual" : "/assets/img/AXG47/Five in One 4CH 1080P MR9704E.pdf"
     } ,
     {
       "product_code" : "AXG48" ,
+      "product_type" : "enhanced_version" ,
       "product_name" : "4CH 1080P H265 HDD Mobile DVR (MR9704E)" ,
       "images" : [
         "assets/img/AXG48/8ch MDVR HDD.jpg" ,
@@ -644,10 +641,11 @@
         "Utilizes H.265 compression for efficient storage and high quality" ,
         "Supports multiple resolutions: 1080P, 720P, 960H, D1, and CIF"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG48/4g, 4CH 1080P H265 HDD Mobile DVR (MR9704E) (1).pdf"
+      "pdf_manual" : "/assets/img/AXG48/4g, 4CH 1080P H265 HDD Mobile DVR (MR9704E) (1).pdf"
     } ,
     {
       "product_code" : "AXG49" ,
+      "product_type" : "MDVR_Other_accessories" ,
       "product_name" : "15mt Cable" ,
       "images" : [
         "assets/img/AXG49/15mt cable.png" ,
@@ -668,6 +666,7 @@
     },
     {
       "product_code" : "AXG50" ,
+      "product_type" : "MDVR_Other_accessories" ,
       "product_name" : "VGA Cable" ,
       "images" : [
         "assets/img/AXG50/VGA cable.png" ,
@@ -683,6 +682,7 @@
     } ,
     {
       "product_code" : "AXG52" ,
+      "product_type" : "AI_camera" ,
       "product_name" : " ADAS Camera" ,
       "images" : [
         "assets/img/AXG52/ADAS.jpg" ,
@@ -701,10 +701,11 @@
         "PAL standard for video output compatibility" ,
         "Ranges from -25℃ to 75℃ for reliable performance in various conditions"
       ], 
-      "pdf_manual" : "AxelGuard/assets/img/AXG52/ADAS Camera AXG-ADAS-S2 SPEC.pdf.pdf"
+      "pdf_manual" : "/assets/img/AXG52/ADAS Camera AXG-ADAS-S2 SPEC.pdf.pdf"
     } ,
     {
       "product_code" : "AXG53" ,
+      "product_type" : "AI_camera" ,
       "product_name" : "DSM Camera" ,
       "images" : [
         "assets/img/AXG53/DSM.jpg" ,
@@ -723,10 +724,11 @@
         " Delivers clear and sharp video output at a resolution of 1280x720 pixels" ,
         "Supports PAL video output format at 25 frames per second for smooth video playback"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG53/DSM Camera AXG-DSM-S2.pdf"
+      "pdf_manual" : "/assets/img/AXG53/DSM Camera AXG-DSM-S2.pdf"
     } ,
     {
       "product_code" : "AXG54" ,
+      "product_type" : "AI_camera" ,
       "product_name" : "BSD Camera" ,
       "images" : [
         "assets/img/AXG54/BSD camera.jpg" ,
@@ -745,10 +747,11 @@
         "Prevents data loss and SD card damage, supporting storage capacities of up to 512G SD cards" ,
         "Provides fast positioning capabilities with detection features for antenna plug-in, unplug, and short circuit issues"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG54/BSD Camera TL-BSD-EF2 SPEC en-GB.pdf"
+      "pdf_manual" : "/assets/img/AXG54/BSD Camera TL-BSD-EF2 SPEC en-GB.pdf"
     },
     {
       "product_code" : "AXG55" ,
+      "product_type" : "MDVR_Other_accessories" ,
       "product_name" : "10mt Cable" ,
       "images" : [
         "assets/img/AXG55/10mt cable 1.png" ,
@@ -770,6 +773,7 @@
     } ,
     {
       "product_code" : "AXG56" ,
+      "product_type" : "MDVR_Monitor",
       "product_name" : "7inch Heavy Duty Monitor" ,
       "images" : [
         "assets/img/AXG56/7inch Heavy duty monitor.jpg" ,
@@ -787,10 +791,11 @@
         "Supports CVBS and VGA video inputs for flexible connectivity",
         "Measures 185mm (L) x 135mm (W) x 60mm (T) with a sunhat, and weighs approximately 0.45 kg for compactness and portability"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG56/7inch Heavy Duty VGA Monitor .pdf"
+      "pdf_manual" : "/assets/img/AXG56/7inch Heavy Duty VGA Monitor .pdf"
     },
     {
       "product_code" : "AXG57" ,
+      "product_type" : "Outdoor_Bullet_camera",
       "product_name" : "AXEL GUARD-150RH Heavy Duty Bullet Camera" , 
       "images" : [
         "assets/img/AXG57/Heavy_duty_camera.jpg" ,
@@ -810,10 +815,11 @@
         "Enhances image clarity in varied lighting conditions for balanced visibility" ,
         "IP66 rated for water and dust resistance with TVS3000V lightning and surge protection for durability in harsh environments"
       ] , 
-      "pdf_manual" : "AxelGuard/assets/img/AXG57/HDC C-120.pdf"
+      "pdf_manual" : "/assets/img/AXG57/HDC C-120.pdf"
     } ,
     {
       "product_code" : "AXG58" ,
+      "product_type" : "enhanced_version",
       "product_name" : "4G, 1080 SD, GPS Mobile DVR (MR9504E)" ,
       "images" : [
         "assets/img/AXG58/SD Card MDVR 5ch.png",
@@ -835,10 +841,11 @@
         "Supports 1080P, 720P, 960H, D1, and CIF resolutions" ,
         "G711A, G711, G.726, MG.726, ADPCM, IMA for audio data handling"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG58/4g, 4CH 1080P H265 HDD Mobile DVR (MR9704E) (1).pdf" 
+      "pdf_manual" : "/assets/img/AXG58/4g, 4CH 1080P H265 HDD Mobile DVR (MR9704E) (1).pdf" 
     } ,
     {
       "product_code" : "AXG59" ,
+      "product_type" : "Indoor_Dome_Camera",
       "product_name" : "Heavy Duty Dome Camera" , 
       "images" : [
         "assets/img/AXG59/Heavy duty dome camera.jpg" ,
@@ -861,6 +868,7 @@
     } ,
     {
       "product_code" : "AXG62"  ,
+      "product_type" : "MDVR_Other_accessories",
       "product_name" : "Alcohol Tester" ,
       "images" : [
         "assets/img/AXG62/Alcohol Tester.png" ,
@@ -880,10 +888,11 @@
         "Requires a blowing flow rate of 10 L/min for accurate measurements" ,
         "Weighs 250g with dimensions of 1406030mm for easy portability and installation"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG62/Alcohol_Tester_Full_Details.pdf.pdf"
+      "pdf_manual" : "/assets/img/AXG62/Alcohol_Tester_Full_Details.pdf.pdf"
     } ,
     {
       "product_code" : "AXG63" ,
+      "product_type" : "MDVR_Other_accessories",
       "product_name" : "2 Way Communication" , 
       "images" : [
         "assets/img/AXG63/2 way communication.jpg" ,
@@ -907,6 +916,7 @@
     } ,
     {
       "product_code" : "AXG64" ,
+      "product_type" : "MDVR_Other_accessories",
       "product_name" : "RS232 Adapter" ,
       "images"  : [
         "assets/img/AXG64/TTL-RS232 adapter.jpg" ,
@@ -927,6 +937,7 @@
     } ,
     {
       "product_code" : "AXG65" ,
+      "product_type" : "MDVR_Other_accessories",
       "product_name" : "Maintenance Tool" ,
       "images" : [
         "assets/img/AXG65/Maintance tool (1).jpg" ,
@@ -947,6 +958,7 @@
     },
     {
       "product_code" : "AXG67" ,
+      "product_type" : "MDVR_Other_accessories",
       "product_name" : "Panic Button" ,
       "images" : [
         "assets/img/AXG67/Panic Button 1.jpg" ,
@@ -969,6 +981,7 @@
     } ,
     {
       "product_code" : "AXG69" ,
+      "product_type" : "MDVR_Other_accessories",
       "product_name" : "720 2CH Monitor Kit" ,
       "images" : [
         "assets/img/AXG69/720 2ch Monitor kit.png" ,
@@ -990,7 +1003,7 @@
     } ,
     {
       "product_code" : "AXG70" ,
-      "product_type" : "RFID Tags",
+      "product_type" : "rfid_tags",
       "product_name" : "2.4G Active Tag (Card Type) HX607" ,
       "images" : [
         "assets/img/AXG70/RFID_Activetag.jpg" ,
@@ -1011,10 +1024,11 @@
         "Operates at 2.44GHz with 0dBm output power" ,
         "Made of ABS heat-resistant material, measuring 86x55x5.5mm"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG70/2.4G Active Tag (Card Type) HX607.pdf"
+      "pdf_manual" : "/assets/img/AXG70/2.4G Active Tag (Card Type) HX607.pdf"
     } ,
     {
       "product_code" : "AXG72" ,
+      "product_type" : "ai_version",
       "product_name" : "4CH HDD Commercial Vehicle AIMDVR (MA9704E)" ,
       "images" : [
         "assets/img/AXG72/AI mdvr.jpg" ,
@@ -1035,11 +1049,11 @@
         " 4 CH audio input and 2 CH analog output for sound management" ,
         " Uses H.264/H.265 for efficient video compression and storage"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG72/4CH HDD Commercial Vehicle AIMDVR (MA9704E).pdf"
+      "pdf_manual" : "/assets/img/AXG72/4CH HDD Commercial Vehicle AIMDVR (MA9704E).pdf"
     } ,
     {
       "product_code" : "AXG73" ,
-      "product_type" : "RFID Tags",
+      "product_type" : "rfid_tags",
       "product_name" : "MR 6700A UHF Passive electronic tag" ,
       "images" : [
         "assets/img/AXG73/Passive_electronictag.jpg" ,
@@ -1057,11 +1071,12 @@
         "Supports both fixed frequency and frequency-hopping spread spectrum (FHSS), software programmable" ,
         " Programmable with an average reading time per 64 bits of less than 10 milliseconds"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG73/MR 6700A UHF Passive electronic tag (1).pdf"
+      "pdf_manual" : "/assets/img/AXG73/MR 6700A UHF Passive electronic tag (1).pdf"
     } ,
     {
       "product_code" : "AXG74" ,
-      "product_name" : "ic Fuel Level Meter (TUA03)" ,
+      "product_type" :"MDVR_Other_accessories",
+      "product_name" : " Ultrasonic Fuel Sensor (TUA03)" ,
       "images" : [
         "assets/img/AXG74/Fuel_sensor.jpg" ,
         "assets/img/AXG74/Screenshot 2024-07-30 111708.png" ,
@@ -1082,10 +1097,11 @@
         "Measurement Resolution: 0.1 mm" ,
         "Operating Temperature Range: -30℃ to +80℃"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG74/Ultrasonic_Fuel (1).pdf"
+      "pdf_manual" : "/assets/img/AXG74/Ultrasonic_Fuel (1).pdf"
     } ,
     {
       "product_code" : "AXG75" ,
+      "product_type" : "MDVR_Other_accessories",
       "product_name" : "5mt Cable" ,
       "images" : [
         "assets/img/AXG75/5mt Cable.png" ,
@@ -1107,6 +1123,7 @@
     } ,
     {
       "product_code" : "AXG78" ,
+      "product_type" : "Dashcam_camera",
       "product_name" : "4K Monitor Kit Camera" ,
       "images" : [
         "assets/img/AXG78/4k Monitor Camera.png" ,
@@ -1126,6 +1143,7 @@
     } ,
     {
       "product_code" : "AXG80" ,
+      "product_type" : "rfid_reader",
       "product_name" : "2.4 GHz Omni-directional RFID Reader (MR3102E)" , 
       "images" : [
         "assets/img/AXG80/Omni_RFID_reader.png" ,
@@ -1145,7 +1163,7 @@
         "Operates on 9V DC with a working current of 350 mA" ,
         "Certified with CE and FCC for compliance and safety"
       ] ,
-      "pdf_manual" : "AxelGuard/assets/img/AXG80/2.4 G-Hz Omni-directional RFID Reader (MR3102E).pdf"
+      "pdf_manual" : "/assets/img/AXG80/2.4 G-Hz Omni-directional RFID Reader (MR3102E).pdf"
 
     }
   ]
