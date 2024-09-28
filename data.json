@@ -181,7 +181,7 @@
     } ,
     {
       "product_code" : "AXG10",
-      "product_type" : "Indoor_Dome_Camera" ,
+      "product_type" : "Indoor_Dome_cameras" ,
       "product_name" : "Dome Camera" ,
       "images" : [
         "assets/img/AXG10/indoor Dome camera.png",
@@ -520,7 +520,7 @@
     } ,
     {
      "product_code" : "AXG42" ,
-     "product_type" : "Indoor_Dome_Camera",
+     "product_type" : "Indoor_Dome_cameras",
      "product_name" : "2MP MDVR Audio Camera" ,
      "images" : [
       "assets/img/AXG42/Audio camera 1.png" ,
@@ -845,7 +845,7 @@
     } ,
     {
       "product_code" : "AXG59" ,
-      "product_type" : "Indoor_Dome_Camera",
+      "product_type" : "Indoor_Dome_cameras",
       "product_name" : "Heavy Duty Dome Camera" , 
       "images" : [
         "assets/img/AXG59/Heavy duty dome camera.jpg" ,
